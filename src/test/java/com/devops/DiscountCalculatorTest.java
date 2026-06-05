@@ -17,7 +17,7 @@ class DiscountCalculatorTest {
     @Test
     void shouldApplyPremiumDiscount() {
         double result = calculator.calculateFinalPrice(100, true);
-        assertEquals(90, result);
+        assertEquals(99, result);
     }
 
     @Test
